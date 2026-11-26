@@ -236,8 +236,12 @@ add_executable(lichii
     romm_profile_account_dialog.h
     romm_settings_dialog.cpp
     romm_settings_dialog.h
+    romm_sync.cpp
+    romm_sync.h
+    romm_save_picker_dialog.cpp
     romm_secret_store.cpp
     romm_secret_store.h
+    romm_save_picker_dialog.h
     romm_title_match_dialog.cpp
     romm_title_match_dialog.h
     startup_checks.cpp
