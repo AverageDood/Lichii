@@ -228,6 +228,8 @@ add_executable(lichii
     multiplayer/state.cpp
     multiplayer/state.h
     multiplayer/validation.h
+    romm_secret_store.cpp
+    romm_secret_store.h
     startup_checks.cpp
     startup_checks.h
     set_play_time_dialog.cpp
