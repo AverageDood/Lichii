@@ -133,6 +133,8 @@ add_executable(lichii
     configuration/configure_per_game.cpp
     configuration/configure_per_game.h
     configuration/configure_per_game.ui
+    configuration/configure_per_game_romm.cpp
+    configuration/configure_per_game_romm.h
     configuration/configure_per_game_addons.cpp
     configuration/configure_per_game_addons.h
     configuration/configure_per_game_addons.ui
@@ -228,12 +230,16 @@ add_executable(lichii
     multiplayer/state.cpp
     multiplayer/state.h
     multiplayer/validation.h
+    romm_catalog_dialog.cpp
+    romm_catalog_dialog.h
     romm_profile_account_dialog.cpp
     romm_profile_account_dialog.h
     romm_settings_dialog.cpp
     romm_settings_dialog.h
     romm_secret_store.cpp
     romm_secret_store.h
+    romm_title_match_dialog.cpp
+    romm_title_match_dialog.h
     startup_checks.cpp
     startup_checks.h
     set_play_time_dialog.cpp
